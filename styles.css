@@ -18,6 +18,10 @@ body {
 .right-section {
   width: 60%;
   background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-container {
