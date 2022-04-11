@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.left-section {
+  width: 40%;
+  background-color: palegreen;
+  position: relative;
+}
+
+.right-section {
+  width: 60%;
+  background-color: palevioletred;
+}
+
+.logo-container {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: paleturquoise;
+}
