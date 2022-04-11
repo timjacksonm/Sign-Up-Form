@@ -16,15 +16,15 @@ body {
 }
 
 .left-section {
-  width: 40%;
+  width: 35%;
   background-image: url(/assets/halie-west-25xggax4bSA-unsplash.jpg);
   background-repeat: no-repeat;
-  background-size: 120%;
+  background-size: cover;
   position: relative;
 }
 
 .right-section {
-  width: 60%;
+  flex: 1;
   background-color: #f3f3f3f3;
   padding: 5rem;
   display: flex;
@@ -57,7 +57,7 @@ body {
 .footer-container {
   position: absolute;
   bottom: 0;
-  width: 40%;
+  width: 35%;
   text-align: center;
   color: #fff;
   padding: 0.5em 0;
