@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Norse Bold';
+  src: url(/assets/Norse-Bold.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +16,7 @@ body {
 
 .left-section {
   width: 40%;
-  background-color: palegreen;
+  background-image: url(/assets/halie-west-25xggax4bSA-unsplash.jpg);
   position: relative;
 }
 
@@ -32,4 +37,8 @@ body {
   justify-content: center;
   align-items: center;
   background-color: paleturquoise;
+}
+
+h1 {
+  font-family: 'Norse Bold', serif;
 }
