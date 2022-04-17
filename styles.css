@@ -41,8 +41,8 @@ label {
 .left-section {
   width: 35%;
   background-image: url('./assets/halie-west-25xggax4bSA-unsplash.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 
